@@ -37,16 +37,16 @@ const Experience: React.FC = () => {
   return (
     <div>
       <main className="p-8 font-body">
-        <p>Explore my working background!</p>
+        <p>🧑‍💻 Explore my working background!</p>
         <hr className="my-4 border-t-2 border-body-light-grey" />
         {positions.map((position, index) => (
           <div key={index}>
-            <p className="font-bold">{position.title}</p>
+            <p className="font-bold">{position.title} at {position.company}</p>
             <p className="mb-2">
-              <i>{position.company}</i>
+              {position.date}
             </p>
             <p className="mb-2">{position.desc}</p>
-            <p>{position.date}</p>
+            
             <hr className="my-4 border-t-2 border-body-light-grey" />
           </div>
         ))}
