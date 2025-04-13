@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="mb-4 flex justify-center sm:mb-0 sm:mt-32 sm:flex-col sm:justify-normal sm:space-y-4">
+    <div className="mb-4 flex justify-center text-lg sm:mb-0 sm:mt-32 sm:flex-col sm:justify-normal sm:space-y-4">
       {buttons.map((button, index) => (
         <ClientNavButton
           key={index}
