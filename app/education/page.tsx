@@ -56,10 +56,10 @@ const Studies: React.FC = () => {
                 {element.name}
               </a>
             </p>
-            <p className="text-lg font-medium">
+            <p className="text-base font-medium">
               {element.date}; {element.location}
             </p>
-            <p className="mb-2 text-lg">{element.desc}</p>
+            <p className="mb-2 text-base">{element.desc}</p>
             <hr className="my-4 border-t-2 border-body-light-grey" />
           </div>
         ))}

@@ -93,10 +93,10 @@ const Experience: React.FC = () => {
               </a>
             </p>
 
-            <p className="text-lg font-medium">
+            <p className="text-base font-medium">
               {position.date}; {position.location}
             </p>
-            <p className="mb-4 text-lg leading-relaxed text-gray-200">
+            <p className="mb-4 text-base leading-relaxed text-gray-200">
               {position.desc}
             </p>
 

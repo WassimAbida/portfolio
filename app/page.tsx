@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   return (
     <main className="p-8 font-body">
       <h1 className="mb-8 text-4xl">👋🏼 Hey, I&apos;m Wassim.</h1>
-      <p className="mb-6 text-lg">
+      <p className="mb-6 text-base">
         Welcome to my{" "}
         <ClientWord
           initial="portfolio"
@@ -26,15 +26,15 @@ const Home: React.FC = () => {
         />
         !
       </p>
-      <p className="mb-6 text-lg">
+      <p className="mb-6 text-base">
         I&apos;m a Senior Machine learning Engineer based in Paris, graduated
         from ENSTA & Ecole Potechnique (X)
       </p>
-      <p className="mb-6 text-lg">
+      <p className="mb-6 text-base">
         Actively, I am building a copilot for hotel reservation management based
         on tools like Django, Langchain, Docker, pgvector.
       </p>
-      <p className="mb-6 text-lg">
+      <p className="mb-6 text-base">
         When I&apos;m not clicking on virtual heads 🎮 and improving myself 💪🏼,
         I dive into the engineering rabbit hole 🕳️.
       </p>

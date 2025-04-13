@@ -27,13 +27,13 @@ const Projects: React.FC = () => {
           <div key={index}>
             <a
               href={project.link}
-              className="cursor-pointer text-lg font-bold underline transition-all duration-200 ease-in-out hover:text-nice-blue"
+              className="cursor-pointer text-base font-bold underline transition-all duration-200 ease-in-out hover:text-nice-blue"
               target="_blank"
               rel="noopener noreferrer"
             >
               {project.title}
             </a>
-            <p className="mb-4 text-lg">{project.desc}</p>
+            <p className="mb-4 text-base">{project.desc}</p>
           </div>
         ))}
         <Link

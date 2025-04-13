@@ -42,10 +42,10 @@ const Spotlight: React.FC = () => {
                 {event.company}
               </a>
             </p>
-            <p className="text-lg font-medium">
+            <p className="text-base font-medium">
               {event.date}; {event.location}
             </p>
-            <p className="mb-2 text-lg">{event.desc}</p>
+            <p className="mb-2 text-base">{event.desc}</p>
             <hr className="my-4 border-t-2 border-body-light-grey" />
           </div>
         ))}

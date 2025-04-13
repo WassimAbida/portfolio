@@ -64,7 +64,7 @@ const About: React.FC = () => {
         words={titlewords}
         className="cursor-pointer text-3xl underline transition-all duration-200 ease-in-out hover:text-nice-blue"
       />
-      <p className="mt-8 text-lg">
+      <p className="mt-8 text-base">
         For as long as I can remember, I&apos;ve always been the{" "}
         <ClientWord
           initial="middle kid"
@@ -74,7 +74,7 @@ const About: React.FC = () => {
         in my family 💻. Honestly, I have to give credit to gaming for starting
         me off.
       </p>
-      <p className="mb-8 mt-6 text-lg">
+      <p className="mb-8 mt-6 text-base">
         Of course, I exist outside of tech. I love doing more than watching,
         leading more than following. I learn through application and live off
         logic. In the future, I hope to{" "}
@@ -91,7 +91,7 @@ const About: React.FC = () => {
         words={techwords}
         className="p- cursor-pointer text-3xl underline transition-all duration-200 ease-in-out hover:text-nice-blue"
       />
-      <p className="mt-8 text-lg">
+      <p className="mt-8 text-base">
         I&apos;m quite the multi-disciplinary engineer having dabbled in all the
         fun stuff:
       </p>
@@ -104,7 +104,7 @@ const About: React.FC = () => {
         words={title2words}
         className="cursor-pointer text-3xl underline transition-all duration-200 ease-in-out hover:text-nice-blue"
       />
-      <p className="mt-8 text-lg">
+      <p className="mt-8 text-base">
         I&apos;m a leading a machine learning team at Mindee, our missions
         include maintating a scalable inference stack for serving AI models
         behind multiple API-based product, building internal tools for
@@ -117,11 +117,11 @@ const About: React.FC = () => {
         />{" "}
         💻.
       </p>
-      <p className="mt-6 text-lg">
+      <p className="mt-6 text-base">
         Whenever I manage to find time in my engineering schedule, I love
         joining clubs and contributing in large competitions like:
       </p>
-      <ul className="mb-8 mt-4 list-inside list-disc space-y-1 pl-8 text-lg">
+      <ul className="mb-8 mt-4 list-inside list-disc space-y-1 pl-8 text-base">
         <li>
           <a
             href="https://www.connectbycnes.fr/en/actinspace"
@@ -167,10 +167,10 @@ const About: React.FC = () => {
         words={title3words}
         className="cursor-pointer text-3xl underline transition-all duration-200 ease-in-out hover:text-nice-blue"
       />
-      <p className="mt-8 text-lg">
+      <p className="mt-8 text-base">
         Still don&apos;t really know me? Here are some fun facts:
       </p>
-      <ul className="mb-8 mt-4 list-inside list-disc space-y-1 pl-8 text-lg">
+      <ul className="mb-8 mt-4 list-inside list-disc space-y-1 pl-8 text-base">
         <li>Studied Applied Mathematics engineering 💉</li>
         <li>Went for a solo bike trip around Tunisia 🚴 </li>
         <li>
